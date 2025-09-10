@@ -77,7 +77,9 @@ if(homeMainArticle){
 }
 
 function handleViewMoreBtn(){
-    if(homeViewMoreBtn || desktopMq.matches){
+    if(!homeViewMoreBtn) return;
+    
+    if(moreViewed || desktopMq.matches){
             homeViewMoreBtn.style.display = 'none'
     } else {
             homeViewMoreBtn.style.display = 'block'
