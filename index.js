@@ -79,9 +79,8 @@ if(homeMainArticle){
 function handleViewMoreBtn(){
     if(homeViewMoreBtn || desktopMq.matches){
             homeViewMoreBtn.style.display = 'none'
-        } else {
+    } else {
             homeViewMoreBtn.style.display = 'block'
-        }
     }
 }
 
