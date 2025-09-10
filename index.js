@@ -28,7 +28,9 @@ function viewMoreBlogs(){
 }
 
 function handleWidthChange() {
-    if(tabletMq.matches) {
+    if(moreViewed) {
+        blogPostRenderNr = 6
+    } else if(tabletMq.matches) {
         blogPostRenderNr = 4
     } else if (desktopMq.matches){
         blogPostRenderNr = 6
