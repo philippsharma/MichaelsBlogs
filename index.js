@@ -78,7 +78,6 @@ if(homeMainArticle){
 
 function handleViewMoreBtn(){
     if(homeViewMoreBtn || desktopMq.matches){
-        if(moreViewed){
             homeViewMoreBtn.style.display = 'none'
         } else {
             homeViewMoreBtn.style.display = 'block'
